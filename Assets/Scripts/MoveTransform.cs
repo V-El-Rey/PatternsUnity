@@ -2,7 +2,7 @@
 
 namespace Asteroids
 {
-    internal class MoveTransform : IMove
+    internal class MoveTransform : IMove, IRotation
     {
         private readonly Transform _transform;
         private Vector3 _move;
@@ -20,6 +20,12 @@ namespace Asteroids
             var speed = deltaTime * Speed;
             _move.Set(horizontal * speed, vertical * speed, 0.0f);
             _transform.localPosition += _move;
+        }
+
+        public void Rotation(Vector3 direction)
+        {
+            var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+            _transform.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
         }
     }
 }

@@ -17,6 +17,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Scripts/GameController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Scripts/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Scripts/InputController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MoveTransform.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
     </changedPaths>
   </component>
@@ -67,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611189798988</updated>
-      <workItem from="1611189809794" duration="5504000" />
+      <workItem from="1611189809794" duration="6664000" />
     </task>
     <servers />
   </component>
