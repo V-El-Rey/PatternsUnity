@@ -10,6 +10,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShipModel.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Scripts/IInitialize.cs" />
@@ -19,6 +22,13 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Scripts/InputController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MoveTransform.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/InputController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameControler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/IMove.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ShipModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ShipController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nMAsnxcn2BIb6m6eCkLIzNo5zJ" />
@@ -69,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611189798988</updated>
       <workItem from="1611189809794" duration="6664000" />
+      <workItem from="1611347656304" duration="4497000" />
     </task>
     <servers />
   </component>
@@ -77,6 +88,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
