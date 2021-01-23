@@ -1,16 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController
 {
     private readonly ShipController _ship = new ShipController();
-
-    private Camera _camera;
+    private readonly ShipModel _model = new ShipModel();
+    
 
     public void Update(Vector3 direction)
     {
-        _camera = Camera.main;
-        _ship.Move(direction);
+        _ship.Move(direction, _model.Speed);
+    }
+
+    public void AccelerationOn()
+    {
+        _model.Speed += _model.Acceleration;
+    }
+
+    public void AccelerationOff()
+    {
+        _model.Speed -= _model.Acceleration;
     }
 }
