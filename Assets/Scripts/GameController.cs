@@ -21,6 +21,7 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
+        _inputController.GetActionInput();
         _playerController.Update(_inputController.MoveDirection);
     }
 }

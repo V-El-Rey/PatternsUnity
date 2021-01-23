@@ -20,24 +20,28 @@ public class InputController
     {
         _forward = Input.GetAxis("Vertical");
         _right = Input.GetAxis("Horizontal");
+        
         _moveDirection.x = _right;
         _moveDirection.y = _forward;
+        
+        return _moveDirection;
+    }
 
+    public void GetActionInput()
+    {
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             OnAccelerationActivation?.Invoke();
         }
-        
+                
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
             OnAccelerationDeactivation?.Invoke();
         }
-
+        
         if (Input.GetMouseButtonDown(0))
         {
             OnFireStart?.Invoke();
         }
-        
-        return _moveDirection;
     }
 }
