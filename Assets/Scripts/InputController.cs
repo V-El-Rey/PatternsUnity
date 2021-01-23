@@ -6,10 +6,12 @@ public class InputController
     private float _forward;
     private float _right;
     
-    public delegate void Acceleration();
+    
+    public delegate void Action();
 
-    public event Acceleration OnAccelerationActivation;
-    public event Acceleration OnAccelerationDeactivation;
+    public event Action OnAccelerationActivation;
+    public event Action OnAccelerationDeactivation;
+    public event Action OnFireStart;
 
     public Vector3 MoveDirection => GetInput();
     
@@ -29,6 +31,11 @@ public class InputController
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
             OnAccelerationDeactivation?.Invoke();
+        }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            OnFireStart?.Invoke();
         }
         
         return _moveDirection;
