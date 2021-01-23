@@ -10,6 +10,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShipModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IFire.cs" root0="FORCE_HIGHLIGHTING" />
@@ -26,13 +34,17 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/GameControler.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AccelerationController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/IMove.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ShipModel.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ShipView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/IFire.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ShipController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Controller.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/IInitialize.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/InitializeController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/IController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/InputController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ShipView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ShipModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ShipController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nMAsnxcn2BIb6m6eCkLIzNo5zJ" />
@@ -83,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611189798988</updated>
       <workItem from="1611189809794" duration="6664000" />
-      <workItem from="1611347656304" duration="13479000" />
+      <workItem from="1611347656304" duration="19228000" />
     </task>
     <servers />
   </component>

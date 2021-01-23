@@ -594,6 +594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   barrel: {fileID: 1736822075617220547}
   bullet: {fileID: 4933975063922895782, guid: a745dd606b94f0e4ea1288097c3c31e1, type: 3}
+  isTouched: 0
 --- !u!1001 &9125083047896036008
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -16,6 +16,8 @@ public class GameController : MonoBehaviour
         _inputController.OnAccelerationActivation += _playerController.AccelerationOn;
         _inputController.OnAccelerationDeactivation += _playerController.AccelerationOff;
         _inputController.OnFireStart += _playerController.Fire;
+        _playerController.OnPlayerGetTouched += _playerController.ApplyDamage;
+
     }
 
 

@@ -6,7 +6,6 @@ public class InputController
     private float _forward;
     private float _right;
     
-    
     public delegate void Action();
 
     public event Action OnAccelerationActivation;
