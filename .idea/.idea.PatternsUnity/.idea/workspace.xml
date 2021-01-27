@@ -58,8 +58,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/IController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidEnemyController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/IPlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidEnemyController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nMAsnxcn2BIb6m6eCkLIzNo5zJ" />
@@ -112,7 +112,7 @@
       <workItem from="1611189809794" duration="6664000" />
       <workItem from="1611347656304" duration="19228000" />
       <workItem from="1611682737346" duration="701000" />
-      <workItem from="1611758893184" duration="9327000" />
+      <workItem from="1611758893184" duration="11946000" />
     </task>
     <servers />
   </component>
