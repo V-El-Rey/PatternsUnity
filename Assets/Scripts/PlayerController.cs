@@ -47,7 +47,7 @@ public class PlayerController : IPlayerController
     {
         if (_model.Hp <= 0)
         {
-            Time.timeScale = 0;
+            //Time.timeScale = 0;
             //Debug.Log("Dead");
         }
         else

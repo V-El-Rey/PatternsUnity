@@ -22,7 +22,7 @@ public class InputController
         
         _moveDirection.x = _right;
         _moveDirection.y = _forward;
-        
+
         return _moveDirection;
     }
 

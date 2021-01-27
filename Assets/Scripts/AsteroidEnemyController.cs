@@ -4,26 +4,16 @@ using UnityEngine;
 
 public class AsteroidEnemyController : IController
 {
-    private IEnemyFactory _asteroidEnemyFactory;
     private Transform _playerPosition;
     private float _spawnTime;
-    private readonly List<GameObject> _asteroids = new List<GameObject>();
-
-
-    private GameObject SpawnAsteroid(Vector3 distance)
-    {
-        return _asteroidEnemyFactory.Create(25.0f, distance);
-    }
-
-    private void DeleteAsteroid(GameObject go)
-    {
-        Object.Destroy(go);
-    }
-
+    private EnemyPoolView _asteroids;
+    private readonly GameObject _enemy = Resources.Load("Enemy/Asteroid") as GameObject;
+    private AsteroidEnemyView _enemyView;
+    
     private Vector3 GetDistanceToPlayer()
     {
-        var randomVectorX = UnityEngine.Random.Range(-5.0f, 5.0f);
-        var randomVectorY = UnityEngine.Random.Range(-5.0f, 5.0f);
+        var randomVectorX = UnityEngine.Random.Range(-7.0f, 7.0f);
+        var randomVectorY = UnityEngine.Random.Range(7.0f, 10.0f);
         var randomVectorZ = 0.0f;
 
         var randomVector = new Vector3(randomVectorX, randomVectorY, randomVectorZ);
@@ -34,25 +24,23 @@ public class AsteroidEnemyController : IController
     }
     public void StartExecute()
     {
-        _asteroidEnemyFactory = new AsteroidFactory();
+        _enemyView = _enemy.GetComponent<AsteroidEnemyView>();
+        _asteroids = new EnemyPoolView();
         _playerPosition = Object.FindObjectOfType<ShipView>().transform;
-        _spawnTime = 1000.0f;
+        _spawnTime = 1500.0f;
     }
 
     public void UpdateExecute()
     {
         _spawnTime -= 0.5f;
 
-        if (_spawnTime == 0.0f)
+        if (_spawnTime != 0.0f) return;
+        var distance = GetDistanceToPlayer();
+        _asteroids.Create(distance, _enemy);
+        _spawnTime = 750.0f;
+        if (_enemyView.IsHitByBullet)
         {
-            _asteroids.Add(SpawnAsteroid(GetDistanceToPlayer()));
-            _spawnTime = 1000.0f;
-        }
-
-        if (_asteroids.Count == 5)
-        {
-            DeleteAsteroid(_asteroids[0]);
-            _asteroids.Remove(_asteroids[0]);
+            _asteroids.Destroy(_enemy);
         }
 
     }
