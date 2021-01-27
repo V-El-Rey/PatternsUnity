@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ShipController : IMove, IFire
 {
-    
-    private readonly ShipView _shipView = Object.FindObjectOfType<ShipView>().GetComponent<ShipView>();
+
+    private readonly ShipView _shipView = Object.FindObjectOfType<ShipView>();
     private readonly ShipModel _shipModel = new ShipModel();
     private Vector3 _move;
     
