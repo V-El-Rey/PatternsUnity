@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerController
+public class PlayerController : IPlayerController
 {
     private readonly ShipController _ship = new ShipController();
     private readonly ShipModel _model = new ShipModel();
@@ -48,11 +48,17 @@ public class PlayerController
         if (_model.Hp <= 0)
         {
             Time.timeScale = 0;
-            Debug.Log("Dead");
+            //Debug.Log("Dead");
         }
         else
         {
             _model.Hp--;
         }
     }
+
+    public void UpdateExecute(Vector3 direction)
+    {
+        Update(direction);
+    }
+
 }

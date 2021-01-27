@@ -20,7 +20,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShipModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AsteroidFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IPlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AsteroidEnemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IEnemyFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AsteroidEnemyController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IFire.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -33,18 +40,26 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameControler.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AccelerationController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/IMove.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/IFire.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Controller.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/IInitialize.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/InitializeController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/IController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/InputController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ShipView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ShipModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ShipView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/IMove.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/InputController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidEnemy.cs" />
+      <option value="$PROJECT_DIR$/Assets/AsteroidView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidEnemyView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/IEnemyFactory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidFactory.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ShipController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/IController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidEnemyController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/IPlayerController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nMAsnxcn2BIb6m6eCkLIzNo5zJ" />
@@ -97,6 +112,7 @@
       <workItem from="1611189809794" duration="6664000" />
       <workItem from="1611347656304" duration="19228000" />
       <workItem from="1611682737346" duration="701000" />
+      <workItem from="1611758893184" duration="9327000" />
     </task>
     <servers />
   </component>

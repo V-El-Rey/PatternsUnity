@@ -2,5 +2,5 @@ using UnityEngine;
 
 public interface IMove 
 {
-    void Move(Vector3 direction, float speed);
+    void Move(Vector2 direction, float speed);
 }

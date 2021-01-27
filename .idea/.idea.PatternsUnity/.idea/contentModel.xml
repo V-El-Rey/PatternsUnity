@@ -7,10 +7,19 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="AsteroidEnemy.cs" t="Include" />
+          <e p="AsteroidEnemyController.cs" t="Include" />
+          <e p="AsteroidEnemyView.cs" t="Include" />
+          <e p="AsteroidFactory.cs" t="Include" />
+          <e p="Enemy.cs" t="Include" />
+          <e p="EnemyView.cs" t="Include" />
           <e p="GameController.cs" t="Include" />
+          <e p="IController.cs" t="Include" />
+          <e p="IEnemyFactory.cs" t="Include" />
           <e p="IFire.cs" t="Include" />
           <e p="IMove.cs" t="Include" />
           <e p="InputController.cs" t="Include" />
+          <e p="IPlayerController.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="ShipController.cs" t="Include" />
           <e p="ShipModel.cs" t="Include" />

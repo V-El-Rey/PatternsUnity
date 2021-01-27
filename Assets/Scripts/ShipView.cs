@@ -11,7 +11,11 @@ public class ShipView : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        isTouched = true;
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            isTouched = true;
+        }
+        
     }
 
     private void OnCollisionExit2D(Collision2D other)

@@ -12,10 +12,10 @@ public class InputController
     public event Action OnAccelerationDeactivation;
     public event Action OnFireStart;
 
-    public Vector3 MoveDirection => GetInput();
+    public Vector2 MoveDirection => GetInput();
     
 
-    private Vector3 GetInput()
+    private Vector2 GetInput()
     {
         _forward = Input.GetAxis("Vertical");
         _right = Input.GetAxis("Horizontal");
