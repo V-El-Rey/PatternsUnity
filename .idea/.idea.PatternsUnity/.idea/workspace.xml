@@ -22,14 +22,15 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShipModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AsteroidModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IPlayerController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyPoolView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IEnemyFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IFire.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PoolObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AsteroidFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AsteroidEnemyController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PoolController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyPool.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -50,22 +51,27 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidEnemy.cs" />
       <option value="$PROJECT_DIR$/Assets/AsteroidView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/IController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/IPlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/InputController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ShipModel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidModel.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/IEnemyFactory.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidFactory.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EnemyPool.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyPoolView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ShipController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ShipView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/BulletView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/StaticAsteroidController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyPoolView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidEnemyView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidEnemyController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Asteroid.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BulletView.cs" />
+      <option value="$PROJECT_DIR$/Assets/PoolObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/IEnemyFactory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidFactory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PoolController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nMAsnxcn2BIb6m6eCkLIzNo5zJ" />
@@ -119,7 +125,7 @@
       <workItem from="1611347656304" duration="19228000" />
       <workItem from="1611682737346" duration="701000" />
       <workItem from="1611758893184" duration="12102000" />
-      <workItem from="1611783912214" duration="7810000" />
+      <workItem from="1611783912214" duration="17978000" />
     </task>
     <servers />
   </component>
