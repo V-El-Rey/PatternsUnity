@@ -19,9 +19,14 @@ public class ShipController : IMove, IFire
 
     public void Fire()
     {
-        var temAmmunition = GameObject.Instantiate(_shipView.bullet, _shipView.barrel.position,
-            _shipView.barrel.rotation);
-        temAmmunition.AddForce(_shipView.barrel.up * _shipModel.Force);
+        var bullet = ObjectPool.GetObjectFromPool();
+        if (bullet != null)
+        {
+            bullet.transform.position = _shipView.barrel.position;
+            bullet.transform.rotation = _shipView.barrel.rotation;
+            bullet.SetActive(true);
+            bullet.GetComponent<Rigidbody2D>().AddForce(_shipModel.Force * Vector3.up,ForceMode2D.Impulse);
+        }
     }
 
     public bool CollisionCheck()

@@ -3,12 +3,16 @@ using UnityEngine.Serialization;
 
 public class GameController : MonoBehaviour
 {
-    [FormerlySerializedAs("_playerPrefab")] [SerializeField] private GameObject playerPrefab;
+    public int amountOfBullets;
+    
+    [SerializeField] private GameObject playerPrefab;
     private InputController _inputController;
     private PlayerController _playerController;
+    private ObjectPool _objectPool;
 
     void Start()
     {
+        ObjectPool.AmountToPool = amountOfBullets;
         var playerObject = Instantiate(playerPrefab, Vector3.zero, Quaternion.identity);
         _inputController = new InputController();
         _playerController = new PlayerController();
@@ -17,7 +21,8 @@ public class GameController : MonoBehaviour
         _inputController.OnAccelerationDeactivation += _playerController.AccelerationOff;
         _inputController.OnFireStart += _playerController.Fire;
         _playerController.OnPlayerGetTouched += _playerController.ApplyDamage;
-
+        _objectPool = new ObjectPool();
+        _objectPool.Initialize();
     }
 
 

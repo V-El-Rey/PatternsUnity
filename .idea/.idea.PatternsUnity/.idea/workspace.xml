@@ -20,6 +20,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShipModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BulletView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IFire.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -41,10 +42,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/IController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/InputController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ShipView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ShipModel.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ShipController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ShipController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ShipModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/BulletView.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nMAsnxcn2BIb6m6eCkLIzNo5zJ" />
@@ -97,6 +100,7 @@
       <workItem from="1611189809794" duration="6664000" />
       <workItem from="1611347656304" duration="19228000" />
       <workItem from="1611682737346" duration="701000" />
+      <workItem from="1611930460714" duration="2038000" />
     </task>
     <servers />
   </component>
