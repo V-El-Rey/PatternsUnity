@@ -19,7 +19,7 @@ public class ShipController : IMove, IFire
 
     public void Fire()
     {
-        var bullet = ObjectPool.GetObjectFromPool();
+        var bullet = ObjectPool.GetObjectFromPool("Bullet");
         if (bullet != null)
         {
             bullet.transform.position = _shipView.barrel.position;

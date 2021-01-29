@@ -4,30 +4,30 @@ using UnityEngine;
 public class ObjectPool
 {
     private static List<GameObject> _pooledObjects;
-    private static int _amountToPool;
-    private GameObject _objectToPool;
+    private static List<ObjectPoolItem> _itemsToPool;
+    
+    
 
-    public static int AmountToPool
+    public void Initialize(List<ObjectPoolItem> objectList)
     {
-        set => _amountToPool = value;
-    }
-
-    public void Initialize()
-    {
+        _itemsToPool = objectList;
         _pooledObjects = new List<GameObject>();
-        for (int i = 0; i < _amountToPool; i++)
+        foreach (var item in _itemsToPool)
         {
-            _objectToPool = Object.Instantiate(Resources.Load(("Bullet/Bullet")) as GameObject);
-            _objectToPool.SetActive(false);
-            _pooledObjects.Add(_objectToPool);
+            for (int i = 0; i < item.amountToPool; i++)
+            {
+                var obj = Object.Instantiate(item.objectToPool);
+                obj.SetActive(false);
+                _pooledObjects.Add(obj);
+            }
         }
     }
 
-    public static GameObject GetObjectFromPool()
+    public static GameObject GetObjectFromPool(string tag)
     {
         foreach (var t in _pooledObjects)
         {
-            if (!t.activeInHierarchy)
+            if (!t.activeInHierarchy && t.CompareTag(tag))
             {
                 return t;
             }

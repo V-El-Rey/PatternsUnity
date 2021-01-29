@@ -309,6 +309,13 @@ MonoBehaviour:
   amountOfBullets: 4
   playerPrefab: {fileID: 6530344021219819777, guid: ac639da7ab2bbc34e8240dfa2b99dd17,
     type: 3}
+  gameObjectsNeedToPool:
+  - amountToPool: 4
+    objectToPool: {fileID: 8974991651741479658, guid: a745dd606b94f0e4ea1288097c3c31e1,
+      type: 3}
+  - amountToPool: 8
+    objectToPool: {fileID: 2344693859498456202, guid: 9816ddc81b47fda4ba00a9fa930aa2ca,
+      type: 3}
 --- !u!4 &1357366412
 Transform:
   m_ObjectHideFlags: 0
