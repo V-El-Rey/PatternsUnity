@@ -50,11 +50,11 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolItem.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ShipController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AseroidController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BulletView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nMAsnxcn2BIb6m6eCkLIzNo5zJ" />
@@ -110,6 +110,7 @@
       <workItem from="1611930460714" duration="2511000" />
       <workItem from="1611951414019" duration="8297000" />
       <workItem from="1612120154783" duration="1639000" />
+      <workItem from="1612131875555" duration="515000" />
     </task>
     <servers />
   </component>

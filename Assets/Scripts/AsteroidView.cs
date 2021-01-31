@@ -14,6 +14,7 @@ public class AsteroidView : MonoBehaviour
     private void OnBecameVisible()
     {
         _inSight = true;
+        CancelInvoke(nameof(ReturnToPool));
     }
 
     private void OnBecameInvisible()
