@@ -1,13 +1,10 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
+
 
 public class AsteroidView : MonoBehaviour
 {
     private bool _inSight = false;
-    public bool isHitByBullet = false;
+    private const float TimeBeforeDestroy = 4.0f;
 
     public delegate void Hit(GameObject asteroid);
 
@@ -21,10 +18,8 @@ public class AsteroidView : MonoBehaviour
 
     private void OnBecameInvisible()
     {
-        if (_inSight)
-        {
-            gameObject.SetActive(false);
-        }
+        if (!_inSight) return;
+        Invoke(nameof(ReturnToPool), TimeBeforeDestroy);
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -33,5 +28,10 @@ public class AsteroidView : MonoBehaviour
         {
             OnAsteroidIsHitByBullet?.Invoke(gameObject);
         }
+    }
+
+    private void ReturnToPool()
+    {
+        gameObject.SetActive(false);
     }
 }
