@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 183736255996199807}
   - component: {fileID: 7973247655428518649}
   - component: {fileID: 4933975063922895782}
+  - component: {fileID: -405140028670401435}
   m_Layer: 0
-  m_Name: Bullet
-  m_TagString: Untagged
+  m_Name: Enemy Bullet
+  m_TagString: Enemy Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,6 +49,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -73,7 +75,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b798bb43e850ad7439eebdd316e1073f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9725491, g: 0.5372549, b: 0.5372549, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -120,3 +122,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-405140028670401435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8974991651741479658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32e2b1f6a2401144fb16115c4103514f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
