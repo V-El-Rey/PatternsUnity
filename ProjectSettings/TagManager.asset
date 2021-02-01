@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Bullet
   - Static Asteroid
+  - Enemy Ship
+  - Enemy Bullet
   layers:
   - Default
   - TransparentFX

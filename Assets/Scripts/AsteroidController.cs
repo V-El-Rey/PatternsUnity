@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.Camera;
 
 public class AsteroidController
 {
     private float _randomCoordinateInX;
     private float _randomCoordinateInY;
+
+    //private readonly int _screenWidth = Screen.width;
 
     private float _spawnTime = 350.0f;
 
@@ -13,7 +16,7 @@ public class AsteroidController
 
     public void Start()
     {
-        _playerPosition = Object.FindObjectOfType<ShipView>().GetComponent<Transform>();
+        _playerPosition = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     public void UpdateExecute()
@@ -38,12 +41,13 @@ public class AsteroidController
     
     private Vector3 GetCoordinates()
     {
+        var position = _playerPosition.position;
         _randomCoordinateInX = Random.Range(-7.0f, 7.0f);
         _randomCoordinateInY = Random.Range(8.0f, 12.0f);
         return new Vector3(_randomCoordinateInX, _randomCoordinateInY, 0.0f);
     }
 
-    public static void DestroyAsteroid(GameObject asteroid)
+    private static void DestroyAsteroid(GameObject asteroid)
     {
         asteroid.SetActive(false);
     }

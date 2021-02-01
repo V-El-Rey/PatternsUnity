@@ -17,8 +17,7 @@ public class ObjectPool
             for (int i = 0; i < item.amountToPool; i++)
             {
                 var obj = Object.Instantiate(item.objectToPool);
-                obj.SetActive(false);
-                _pooledObjects.Add(obj);
+                AddObjectToPool(obj);
             }
         }
     }
@@ -34,5 +33,11 @@ public class ObjectPool
         }
 
         return null;
+    }
+
+    public static void AddObjectToPool(GameObject obj)
+    {
+        obj.SetActive(false);
+        _pooledObjects.Add(obj);
     }
 }

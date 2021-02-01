@@ -2,8 +2,13 @@ using UnityEngine;
 
 public class PlayerController
 {
-    private readonly ShipController _ship = new ShipController();
-    private readonly ShipModel _model = new ShipModel();
+    private readonly ShipController _ship;
+
+    public PlayerController(ShipController shipController)
+    {
+        _ship = shipController;
+    }
+    
     private bool _flag = false;
 
     public delegate void Damage();
@@ -11,9 +16,9 @@ public class PlayerController
     public event Damage OnPlayerGetTouched;
 
 
-    public void Update(Vector3 direction)
+    public void UpdateExecute(Vector3 direction)
     {
-        _ship.Move(direction, _model.Speed);
+        _ship.Move(direction, _ship.ShipModel.Speed);
         if (_ship.CollisionCheck() == true)
         {
             if (_flag == false)
@@ -30,12 +35,12 @@ public class PlayerController
 
     public void AccelerationOn()
     {
-        _model.Speed += _model.Acceleration;
+        _ship.ShipModel.Speed += _ship.ShipModel.Acceleration;
     }
 
     public void AccelerationOff()
     {
-        _model.Speed -= _model.Acceleration;
+        _ship.ShipModel.Speed -= _ship.ShipModel.Acceleration;
     }
 
     public void Fire()
@@ -45,14 +50,14 @@ public class PlayerController
 
     public void ApplyDamage()
     {
-        if (_model.Hp <= 0)
+        if (_ship.ShipModel.Hp <= 0)
         {
             Time.timeScale = 0;
             Debug.Log("Dead");
         }
         else
         {
-            _model.Hp--;
+            _ship.ShipModel.Hp--;
         }
     }
 }

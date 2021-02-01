@@ -10,6 +10,8 @@
           <e p="AsteroidController.cs" t="Include" />
           <e p="AsteroidView.cs" t="Include" />
           <e p="BulletView.cs" t="Include" />
+          <e p="EnemyController.cs" t="Include" />
+          <e p="EnemyShipsController.cs" t="Include" />
           <e p="GameController.cs" t="Include" />
           <e p="IFire.cs" t="Include" />
           <e p="IMove.cs" t="Include" />
@@ -18,6 +20,7 @@
           <e p="ObjectPoolItem.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="ShipController.cs" t="Include" />
+          <e p="ShipFactory.cs" t="Include" />
           <e p="ShipModel.cs" t="Include" />
           <e p="ShipView.cs" t="Include" />
         </e>
