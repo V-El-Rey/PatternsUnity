@@ -8,8 +8,7 @@ public class GameController : MonoBehaviour
     
     private InputController _inputController;
     private PlayerController _playerController;
-    //private AsteroidController _asteroidController;
-    private EnemyShipsController _enemyShipsController;
+    private AsteroidSpawnController _asteroidSpawnController;
     private ShipFactory _shipFactory;
     private ObjectPool _objectPool;
     
@@ -21,8 +20,7 @@ public class GameController : MonoBehaviour
         _shipFactory = new ShipFactory();
         _inputController = new InputController();
         _playerController = new PlayerController(_shipFactory.CreateAStarship("Player", Vector3.zero));
-        //_asteroidController = new AsteroidController();
-        _enemyShipsController = new EnemyShipsController(4);
+        _asteroidSpawnController = new AsteroidSpawnController();
 
         _inputController.OnAccelerationActivation += _playerController.AccelerationOn;
         _inputController.OnAccelerationDeactivation += _playerController.AccelerationOff;
@@ -30,19 +28,16 @@ public class GameController : MonoBehaviour
         _playerController.OnPlayerGetTouched += _playerController.ApplyDamage;
 
         _objectPool.Initialize(gameObjectsNeedToPool);
-        //_asteroidController.Start();;
-        _enemyShipsController.StartExecute();
+        _asteroidSpawnController.Start();;
 
     }
 
 
     private void Update()
     {
-        
         _inputController.GetActionInput();
         _playerController.UpdateExecute(_inputController.MoveDirection);
-        //_asteroidController.UpdateExecute();
-        _enemyShipsController.UpdateExecute();
-
+        _asteroidSpawnController.UpdateExecute();
+        
     }
 }

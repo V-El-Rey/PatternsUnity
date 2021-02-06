@@ -21,7 +21,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShipModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPoolItem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AsteroidController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IFire.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -55,11 +54,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ShipController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EnemyShipController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyShipsController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ShipFactory.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyShipsController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidSpawnController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nMAsnxcn2BIb6m6eCkLIzNo5zJ" />
@@ -116,6 +116,8 @@
       <workItem from="1611951414019" duration="8297000" />
       <workItem from="1612120154783" duration="1639000" />
       <workItem from="1612131875555" duration="19524000" />
+      <workItem from="1612206272302" duration="906000" />
+      <workItem from="1612607243043" duration="1872000" />
     </task>
     <servers />
   </component>

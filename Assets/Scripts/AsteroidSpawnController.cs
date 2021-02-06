@@ -3,12 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using static UnityEngine.Camera;
 
-public class AsteroidController
+public class AsteroidSpawnController
 {
     private float _randomCoordinateInX;
     private float _randomCoordinateInY;
-
-    //private readonly int _screenWidth = Screen.width;
 
     private float _spawnTime = 350.0f;
 
@@ -50,5 +48,6 @@ public class AsteroidController
     private static void DestroyAsteroid(GameObject asteroid)
     {
         asteroid.SetActive(false);
+        asteroid.GetComponent<AsteroidView>().OnAsteroidIsHitByBullet -= DestroyAsteroid;
     }
 }

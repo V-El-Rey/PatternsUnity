@@ -19,22 +19,4 @@ public class ShipFactory
         return _shipController = new ShipController(_shipView, _shipModel);
     }
     
-    public ShipController CreateAStarship(string typeOfShip, Vector3 spawnPosition, out GameObject prefab)
-    {
-        _shipPrefab = Object.Instantiate(Resources.Load(typeOfShip) as GameObject);
-        _shipPrefab.transform.position = spawnPosition;
-        _shipModel = new ShipModel();
-        _shipView = _shipPrefab.GetComponent<ShipView>();
-        prefab = _shipPrefab;
-        return _shipController = new ShipController(_shipView, _shipModel);
-    }
-    
-    public ShipController CreateAStarship(string typeOfShip)
-    {
-        _shipPrefab = Object.Instantiate(Resources.Load(typeOfShip) as GameObject);
-        _shipPrefab.transform.position = Vector3.zero;
-        _shipModel = new ShipModel();
-        _shipView = _shipPrefab.GetComponent<ShipView>();
-        return _shipController = new ShipController(_shipView, _shipModel);
-    }
 }
