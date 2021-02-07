@@ -72,14 +72,14 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/IAmmunition.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Asteroids/IFire.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/Bullet.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/ModificationWeapon.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/ModificationMuffler.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/IMuffler.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/Muffler.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/IScope.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/Scope.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/ModificationWeapon.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/ModificationScope.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/Example.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/ModificationMuffler.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nMAsnxcn2BIb6m6eCkLIzNo5zJ" />
@@ -138,7 +138,7 @@
       <workItem from="1612131875555" duration="19524000" />
       <workItem from="1612206272302" duration="906000" />
       <workItem from="1612607243043" duration="1872000" />
-      <workItem from="1612731668392" duration="5286000" />
+      <workItem from="1612731668392" duration="6737000" />
     </task>
     <servers />
   </component>

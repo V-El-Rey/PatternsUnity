@@ -18,6 +18,9 @@ namespace Homework4
         [Header("ScopeGun")] 
         [SerializeField] private Transform _scopePosition;
         [SerializeField] private GameObject _scope;
+
+        public bool _mufflerOn = false;
+        private bool _scopeOn = false;
          
         private Weapon _weapon;
 
@@ -42,13 +45,22 @@ namespace Homework4
             }
 
             if (Input.GetKeyDown(KeyCode.F))
-            {
+            {                    
                 var muffler = new Muffler(_audioClipMuffler, _volumeFireOnMuffler,
                     _barrelPosition, _muffler);
                 ModificationWeapon modificationWeapon = new
                     ModificationMuffler(_audioSource, muffler, _barrelPositionMuffler.position);
-                modificationWeapon.ApplyModification(_weapon);
-                _fire = modificationWeapon;
+                if (!_mufflerOn)
+                {
+                    _mufflerOn = true;
+                    modificationWeapon.ApplyModification(_weapon);
+                    _fire = modificationWeapon;
+                }
+                else if(_mufflerOn)
+                {
+                    modificationWeapon.RemoveModification(_weapon);
+                }
+                
             }
 
             if (Input.GetKeyDown(KeyCode.R))
@@ -57,6 +69,11 @@ namespace Homework4
                 ModificationWeapon modificationWeapon = new ModificationScope(scope, _scopePosition.position);
                 modificationWeapon.ApplyModification(_weapon);
                 _fire = modificationWeapon;
+            }
+
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                
             }
         }
     }

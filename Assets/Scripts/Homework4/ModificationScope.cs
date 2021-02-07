@@ -9,6 +9,7 @@ namespace Homework4
     {
         private readonly Vector3 _scopePosition;
         private readonly IScope _scope;
+        private Weapon _previousWeaponState;
 
         public ModificationScope(IScope scope, Vector3 scopePosition)
         {
@@ -18,8 +19,19 @@ namespace Homework4
         
         protected override Weapon AddModification(Weapon weapon)
         {
+            SaveWeaponState(weapon);
             var scope = Object.Instantiate(_scope.ScopeInstance, _scopePosition, Quaternion.identity);
             return weapon;
+        }
+
+        protected override void SaveWeaponState(Weapon weapon)
+        {
+            _previousWeaponState = weapon;
+        }
+
+        public override Weapon RemoveModification(Weapon weapon)
+        {
+            return _previousWeaponState;
         }
     }
 }

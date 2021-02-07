@@ -8,6 +8,10 @@ namespace Homework4
 
         protected abstract Weapon AddModification(Weapon weapon);
 
+        protected abstract void SaveWeaponState(Weapon weapon);
+
+        public abstract Weapon RemoveModification(Weapon weapon);
+
         public void ApplyModification(Weapon weapon)
         {
             _weapon = AddModification(weapon);
