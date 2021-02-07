@@ -19,9 +19,16 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShipModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPoolItem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IFire.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework4/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework4/Example.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework4/IScope.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework4/IMuffler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework4/ModificationWeapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework4/ModificationScope.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework4/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework4/IAmmunition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework4/ModificationMuffler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework4/Muffler.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -60,6 +67,19 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidSpawnController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/IFire.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/Weapon.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/IAmmunition.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Asteroids/IFire.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/Bullet.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/ModificationWeapon.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/ModificationMuffler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/IMuffler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/Muffler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/IScope.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/Scope.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/ModificationScope.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/Example.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nMAsnxcn2BIb6m6eCkLIzNo5zJ" />
@@ -118,6 +138,7 @@
       <workItem from="1612131875555" duration="19524000" />
       <workItem from="1612206272302" duration="906000" />
       <workItem from="1612607243043" duration="1872000" />
+      <workItem from="1612731668392" duration="5286000" />
     </task>
     <servers />
   </component>
