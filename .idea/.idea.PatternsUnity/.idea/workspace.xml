@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f7cdeb7-0a9c-46e6-b9c7-9672f2960e0e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework4/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework4/Example.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework4/IScope.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework4/IMuffler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework4/ModificationWeapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework4/ModificationScope.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework4/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework4/IAmmunition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework4/ModificationMuffler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Homework4/Muffler.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/Scripts/IInitialize.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Scripts/Controller.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Scripts/GameController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Scripts/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Scripts/InputController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MoveTransform.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameControler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AccelerationController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/IMove.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/IFire.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Controller.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/IInitialize.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/InitializeController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/IController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/InputController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ShipView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ShipModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/BulletView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PoolManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolItem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AseroidController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BulletView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Ship.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ShipController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyShipController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyShipsController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ShipFactory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidSpawnController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/IFire.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/Weapon.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/IAmmunition.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Asteroids/IFire.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/Bullet.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/IMuffler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/Muffler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/IScope.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/Scope.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/ModificationWeapon.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/ModificationScope.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/Example.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Homework4/ModificationMuffler.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1nMAsnxcn2BIb6m6eCkLIzNo5zJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f7cdeb7-0a9c-46e6-b9c7-9672f2960e0e" name="Default Changelist" comment="" />
+      <created>1611189798988</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611189798988</updated>
+      <workItem from="1611189809794" duration="6664000" />
+      <workItem from="1611347656304" duration="19228000" />
+      <workItem from="1611682737346" duration="701000" />
+      <workItem from="1611930460714" duration="2511000" />
+      <workItem from="1611951414019" duration="8297000" />
+      <workItem from="1612120154783" duration="1639000" />
+      <workItem from="1612131875555" duration="19524000" />
+      <workItem from="1612206272302" duration="906000" />
+      <workItem from="1612607243043" duration="1872000" />
+      <workItem from="1612731668392" duration="6737000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
