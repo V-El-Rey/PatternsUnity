@@ -1,14 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using static UnityEngine.Camera;
 
 public class AsteroidSpawnController
 {
     private float _randomCoordinateInX;
     private float _randomCoordinateInY;
 
-    private float _spawnTime = 350.0f;
+    private float _spawnTime = 150.0f;
 
     private Transform _playerPosition;
 
@@ -33,7 +30,7 @@ public class AsteroidSpawnController
                 staticAsteroid.SetActive(true);
             }
 
-            _spawnTime = 350.0f;
+            _spawnTime = 150.0f;
         }
     }
     

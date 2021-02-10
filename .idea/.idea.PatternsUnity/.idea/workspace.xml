@@ -19,9 +19,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShipModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPoolItem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IFire.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BaseUIButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UIController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameStarter.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -57,9 +57,14 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/EnemyShipsController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ShipFactory.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidSpawnController.cs" />
+      <option value="$PROJECT_DIR$/Assets/BaseUIButton.cs" />
+      <option value="$PROJECT_DIR$/Assets/QuitGameButtonView.cs" />
+      <option value="$PROJECT_DIR$/Assets/StartGameButtonView.cs" />
+      <option value="$PROJECT_DIR$/Assets/UIController.cs" />
+      <option value="$PROJECT_DIR$/Assets/GameStarter.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nMAsnxcn2BIb6m6eCkLIzNo5zJ" />
@@ -118,6 +123,7 @@
       <workItem from="1612131875555" duration="19524000" />
       <workItem from="1612206272302" duration="906000" />
       <workItem from="1612607243043" duration="1872000" />
+      <workItem from="1612974404881" duration="3947000" />
     </task>
     <servers />
   </component>

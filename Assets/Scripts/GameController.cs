@@ -4,8 +4,7 @@ using UnityEngine.Serialization;
 
 public class GameController : MonoBehaviour
 {
-    public int amountOfBullets;
-    
+
     private InputController _inputController;
     private PlayerController _playerController;
     private AsteroidSpawnController _asteroidSpawnController;
