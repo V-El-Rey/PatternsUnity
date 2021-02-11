@@ -12,6 +12,7 @@ TagManager:
   - Start
   - Quit
   - GameControl
+  - Score
   layers:
   - Default
   - TransparentFX

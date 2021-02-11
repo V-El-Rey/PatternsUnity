@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameObjectsNeedToPool:
-  - amountToPool: 10
+  - amountToPool: 8
     objectToPool: {fileID: 2344693859498456202, guid: 9816ddc81b47fda4ba00a9fa930aa2ca,
       type: 3}
   - amountToPool: 4
