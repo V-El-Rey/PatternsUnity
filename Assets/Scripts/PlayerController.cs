@@ -1,8 +1,9 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController
 {
-    private readonly ShipController _ship;
+    private static ShipController _ship;
 
     public PlayerController(ShipController shipController)
     {
@@ -11,10 +12,19 @@ public class PlayerController
     
     private bool _flag = false;
 
+    public string scoreToString;
+
     public delegate void Damage();
 
     public event Damage OnPlayerGetTouched;
 
+    public static int score;
+
+
+    public void StartExecute()
+    {
+        _ship.ShipModel.Score = score;
+    }
 
     public void UpdateExecute(Vector3 direction)
     {
@@ -59,5 +69,10 @@ public class PlayerController
         {
             _ship.ShipModel.Hp--;
         }
+    }
+
+    public static void ApplyScore(int score)
+    {
+        _ship.ShipView.gameObject.GetComponentInChildren<Text>().text = ScoreInterpreter.InterpretateScore(score);
     }
 }

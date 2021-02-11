@@ -18,11 +18,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/BaseUIButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/UIController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GameStarter.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Scripts/IInitialize.cs" />
@@ -42,13 +37,11 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/IController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/InputController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ShipView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ShipModel.cs" />
       <option value="$PROJECT_DIR$/Assets/BulletView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PoolManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolItem.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AseroidController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BulletView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Ship.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
@@ -59,12 +52,15 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/ShipFactory.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidSpawnController.cs" />
       <option value="$PROJECT_DIR$/Assets/BaseUIButton.cs" />
       <option value="$PROJECT_DIR$/Assets/QuitGameButtonView.cs" />
       <option value="$PROJECT_DIR$/Assets/StartGameButtonView.cs" />
       <option value="$PROJECT_DIR$/Assets/UIController.cs" />
       <option value="$PROJECT_DIR$/Assets/GameStarter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ShipModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidSpawnController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UIController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nMAsnxcn2BIb6m6eCkLIzNo5zJ" />
@@ -123,7 +119,8 @@
       <workItem from="1612131875555" duration="19524000" />
       <workItem from="1612206272302" duration="906000" />
       <workItem from="1612607243043" duration="1872000" />
-      <workItem from="1612974404881" duration="3947000" />
+      <workItem from="1612974404881" duration="4684000" />
+      <workItem from="1613000752224" duration="1787000" />
     </task>
     <servers />
   </component>

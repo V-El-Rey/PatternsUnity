@@ -7,11 +7,11 @@ public class AsteroidSpawnController
 
     private float _spawnTime = 150.0f;
 
-    private Transform _playerPosition;
+    private static GameObject _playerPosition;
 
     public void Start()
     {
-        _playerPosition = GameObject.FindGameObjectWithTag("Player").transform;
+        _playerPosition = GameObject.FindGameObjectWithTag("Player");
     }
 
     public void UpdateExecute()
@@ -20,7 +20,7 @@ public class AsteroidSpawnController
 
         if (_spawnTime == 0.0f)
         {
-            var spawnPosition = _playerPosition.position + GetCoordinates();
+            var spawnPosition = _playerPosition.transform.position + GetCoordinates();
             var staticAsteroid = ObjectPool.GetObjectFromPool("Static Asteroid");
             if (staticAsteroid != null)
             {
@@ -36,9 +36,9 @@ public class AsteroidSpawnController
     
     private Vector3 GetCoordinates()
     {
-        var position = _playerPosition.position;
-        _randomCoordinateInX = Random.Range(-7.0f, 7.0f);
-        _randomCoordinateInY = Random.Range(8.0f, 12.0f);
+        var position = _playerPosition.transform.position;
+        _randomCoordinateInX = Random.Range(-7000.0f, 7000.0f);
+        _randomCoordinateInY = Random.Range(8000.0f, 12000.0f);
         return new Vector3(_randomCoordinateInX, _randomCoordinateInY, 0.0f);
     }
 

@@ -8,6 +8,10 @@ TagManager:
   - Static Asteroid
   - Enemy Ship
   - Enemy Bullet
+  - UI
+  - Start
+  - Quit
+  - GameControl
   layers:
   - Default
   - TransparentFX

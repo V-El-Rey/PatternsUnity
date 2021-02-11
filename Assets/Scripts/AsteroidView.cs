@@ -9,7 +9,7 @@ public class AsteroidView : MonoBehaviour
     public delegate void Hit(GameObject asteroid);
 
     public event Hit OnAsteroidIsHitByBullet;
-    
+
 
     private void OnBecameVisible()
     {
@@ -28,6 +28,8 @@ public class AsteroidView : MonoBehaviour
         if (other.gameObject.CompareTag("Bullet"))
         {
             OnAsteroidIsHitByBullet?.Invoke(gameObject);
+            PlayerController.score += 100;
+            PlayerController.ApplyScore(PlayerController.score);
         }
     }
 

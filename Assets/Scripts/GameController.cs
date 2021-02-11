@@ -10,6 +10,7 @@ public class GameController : MonoBehaviour
     private AsteroidSpawnController _asteroidSpawnController;
     private ShipFactory _shipFactory;
     private ObjectPool _objectPool;
+    private UIController _uIController;
     
     [SerializeField] private List<ObjectPoolItem> gameObjectsNeedToPool;
 
@@ -20,6 +21,7 @@ public class GameController : MonoBehaviour
         _inputController = new InputController();
         _playerController = new PlayerController(_shipFactory.CreateAStarship("Player", Vector3.zero));
         _asteroidSpawnController = new AsteroidSpawnController();
+        _uIController = GameObject.FindObjectOfType<UIController>();
 
         _inputController.OnAccelerationActivation += _playerController.AccelerationOn;
         _inputController.OnAccelerationDeactivation += _playerController.AccelerationOff;
@@ -37,6 +39,5 @@ public class GameController : MonoBehaviour
         _inputController.GetActionInput();
         _playerController.UpdateExecute(_inputController.MoveDirection);
         _asteroidSpawnController.UpdateExecute();
-        
     }
 }

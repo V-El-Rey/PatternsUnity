@@ -5,9 +5,13 @@ public class UIController : MonoBehaviour
 {
     private StartGameButtonView _startGameButton;
     private QuitGameButtonView _quitGameButton;
+    private static string _playerScore;
+    private GameObject _player;
+    private int _score;
 
     private Button _startButton;
     private Button _quitButton;
+
 
     private void Start()
     {
@@ -16,12 +20,8 @@ public class UIController : MonoBehaviour
 
         _quitButton = GameObject.FindGameObjectWithTag("Quit").GetComponent<Button>();
         _quitGameButton = _quitButton.GetComponent<QuitGameButtonView>();
-        
+
         _startButton.onClick.AddListener(_startGameButton.Execute);
         _quitButton.onClick.AddListener(_quitGameButton.Execute);
-    }
-
-    private void Update()
-    {
     }
 }
