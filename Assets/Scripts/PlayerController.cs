@@ -19,6 +19,7 @@ public class PlayerController
     public event Damage OnPlayerGetTouched;
 
     public static int score;
+    public static int enemiesDown = 0;
 
 
     public void StartExecute()
@@ -71,8 +72,24 @@ public class PlayerController
         }
     }
 
-    public static void ApplyScore(int score)
+    public static void ApplyScore()
     {
-        _ship.ShipView.gameObject.GetComponentInChildren<Text>().text = ScoreInterpreter.InterpretateScore(score);
+        score += 100;
+        
+        //_ship.ShipView.gameObject.GetComponentInChildren<Text>().text = ScoreInterpreter.InterpretateScore(score);
+        var uiTexts = _ship.ShipView.GetComponentsInChildren<Text>();
+        foreach (var text in uiTexts)
+        {
+            if (text.CompareTag("Score"))
+            {
+                text.text = ScoreInterpreter.InterpretateScore(score);
+            }
+
+            if (text.CompareTag("EnemiesDown"))
+            {
+                enemiesDown += 1;
+                text.text = enemiesDown.ToString();
+            }
+        }
     }
 }

@@ -43,7 +43,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/AseroidController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BulletView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Ship.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ShipController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EnemyShipController.cs" />
@@ -58,9 +57,10 @@
       <option value="$PROJECT_DIR$/Assets/UIController.cs" />
       <option value="$PROJECT_DIR$/Assets/GameStarter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ShipModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UIController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidSpawnController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UIController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nMAsnxcn2BIb6m6eCkLIzNo5zJ" />
@@ -121,6 +121,7 @@
       <workItem from="1612607243043" duration="1872000" />
       <workItem from="1612974404881" duration="4684000" />
       <workItem from="1613000752224" duration="1787000" />
+      <workItem from="1613202151488" duration="2422000" />
     </task>
     <servers />
   </component>

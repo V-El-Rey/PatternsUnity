@@ -6,6 +6,7 @@
     <e p="P:\PatternsUnity\PatternsUnity" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="ScoreInterpreter.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AsteroidSpawnController.cs" t="Include" />
           <e p="AsteroidView.cs" t="Include" />

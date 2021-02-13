@@ -13,6 +13,7 @@ TagManager:
   - Quit
   - GameControl
   - Score
+  - EnemiesDown
   layers:
   - Default
   - TransparentFX

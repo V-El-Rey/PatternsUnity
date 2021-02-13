@@ -7,8 +7,10 @@ public class AsteroidView : MonoBehaviour
     private const float TimeBeforeDestroy = 4.0f;
 
     public delegate void Hit(GameObject asteroid);
+    public delegate void Score();
 
     public event Hit OnAsteroidIsHitByBullet;
+    public event Score OnAsteroidDestroyed;
 
 
     private void OnBecameVisible()
@@ -27,9 +29,8 @@ public class AsteroidView : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Bullet"))
         {
+            OnAsteroidDestroyed?.Invoke();
             OnAsteroidIsHitByBullet?.Invoke(gameObject);
-            PlayerController.score += 100;
-            PlayerController.ApplyScore(PlayerController.score);
         }
     }
 

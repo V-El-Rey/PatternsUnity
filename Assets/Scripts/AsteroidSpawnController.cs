@@ -27,6 +27,7 @@ public class AsteroidSpawnController
                 staticAsteroid.transform.position = spawnPosition;
                 staticAsteroid.transform.rotation = Quaternion.identity;
                 staticAsteroid.GetComponent<AsteroidView>().OnAsteroidIsHitByBullet += DestroyAsteroid;
+                staticAsteroid.GetComponent<AsteroidView>().OnAsteroidDestroyed += PlayerController.ApplyScore;
                 staticAsteroid.SetActive(true);
             }
 
@@ -46,5 +47,6 @@ public class AsteroidSpawnController
     {
         asteroid.SetActive(false);
         asteroid.GetComponent<AsteroidView>().OnAsteroidIsHitByBullet -= DestroyAsteroid;
+        asteroid.GetComponent<AsteroidView>().OnAsteroidDestroyed -= PlayerController.ApplyScore;
     }
 }
